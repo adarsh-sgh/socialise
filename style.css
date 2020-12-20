@@ -1,7 +1,7 @@
  body{
       margin: 0;
     padding: 0;
-    font-size: 40px;
+    font-size: 150%;
     background-color:paleturquoise;
 }
 
@@ -10,13 +10,10 @@
     align-items: center;
 }
 #logo {
-    margin: 35px 40px;
+    margin: 2% 2px 2% 2% ;
+    height: 100%;
 }
-#navbar img{ 
-    height: 100px;
-    margin: 8px 40px;
-    border-radius: 125px;
-}
+
 #navbar ul {
     display: flex;
 }
@@ -27,7 +24,7 @@
 }
 #navbar ul li a{ 
     display: block;
-    padding:2px 45px;
+    padding:2px 2vw;
     border-radius: 30px;
     text-decoration:none ;
     

@@ -3,14 +3,14 @@ html {
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
-  
-  /* add fonts family @vanshul */
   font-family: 'Acme', sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #eb5814;
 }
-
+.caption{
+  text-align: center;
+}
 .big1 {
   background-image: url("robotics/images/big.jpg");
   min-height: 100%;
@@ -26,7 +26,7 @@ html {
 
 .about {
   text-align: center;
-  padding: 50px 50px 50px 20px;
+  padding: 0% 2% 5% ;
 }
 .info>h3{
   text-align: center;
@@ -40,14 +40,17 @@ html {
 #footer {
   background-color: black;
   color: white;
-  height: 100%;
   width: 100%;
   position: absolute;
 
 }
 
-@media(max-width:568px) {
+@media(max-width:625px) {
   .big1 {
     background-attachment: scroll;
   }
+  #navbar {
+    display: none;
+  }
+  
 }
