@@ -36,11 +36,16 @@ html {
   width: 100%;
 
 }
-#footer{
-   background-color: black;
-   color: white;
-   width: 100%;
-   position: absolute;
+#footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: absolute;
 
 }
 
+@media(max-width:568px) {
+  .big1 {
+    background-attachment: scroll;
+  }
+}
