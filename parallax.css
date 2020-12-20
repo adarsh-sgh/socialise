@@ -11,8 +11,14 @@ html {
 .caption{
   text-align: center;
 }
-.big1 {
-  background-image: url("robotics/images/big.jpg");
+
+.big1{background-image: url("robotics/images/big.jpg");}
+.big2{background-image: url("teamexe/images/big.jpg");}
+.big3{background-image: url("iste/images/big.jpg");}
+.big4{background-image: url("csoc/images/big.jpg");}
+.big5{background-image: url("spic/images/big.jpg");}
+
+.big {
   min-height: 100%;
   position: relative;
   opacity: 0.70;
@@ -26,7 +32,9 @@ html {
 
 .about {
   text-align: center;
-  padding: 0% 2% 5% ;
+}
+.info {
+  padding: 0% 2% 5%;
 }
 .info>h3{
   text-align: center;
