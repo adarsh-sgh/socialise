@@ -2,11 +2,12 @@ body,
 html {
   height: 100%;
   margin: 0;
-  font-size: 16px;
+  
   /* add fonts family @vanshul */
+  font-family: 'Acme', sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666666;
+  color: #eb5814;
 }
 
 .big1 {
@@ -29,3 +30,17 @@ html {
 .info>h3{
   text-align: center;
 }
+#navbar{
+  background-color: black;
+  height: 10%;
+  width: 100%;
+
+}
+#footer{
+   background-color: black;
+   color: white;
+   width: 100%;
+   position: absolute;
+
+}
+
