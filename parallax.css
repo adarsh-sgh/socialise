@@ -1,0 +1,31 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  /* add fonts family @vanshul */
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666666;
+}
+
+.big1 {
+  background-image: url("robotics/images/big.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  /* editing this line will kill parallax */
+}
+
+.about {
+  text-align: center;
+  padding: 50px 50px 50px 20px;
+}
+.info>h3{
+  text-align: center;
+}
