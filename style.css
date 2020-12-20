@@ -54,5 +54,10 @@
     color:white;
     background-color: blue;
 }
-
+div.caption>span{
+    background: #000000c7;
+    color: #fffb15;
+    padding: 5px;
+    border-radius: 25px;
+}
 
