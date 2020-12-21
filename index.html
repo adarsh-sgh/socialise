@@ -17,13 +17,17 @@
         <nav id="navbar">
                 <img src="NITH LOGO CIRCLE.jpg" alt="logo" id="logo"><h3>NITH</h3>
            <ul>
-              <li class="item"><a href="#">HOME</a></li>
+              <li class="item"><a onclick="notice('You are Home',2000)" href="#">HOME</a></li>
               <li class="item"><a href="#">ABOUT</a></li>
               <li class="item"><a href="#footer-content">CONTACT </a></li>
               <li class="item"><a href="#1">IMAGES</a></li>     
            </ul>
         </nav>
     
+<div class="overlay"> 
+ <p id="notice"></p>
+ <button class="button" onclick="dismiss()">Dismiss</button>
+</div>
 
        <div class="big1 big">
             <div class="caption"><span> Robotics Society</span></div>
@@ -99,5 +103,6 @@
            </div>
 
           </footer>
+    <script src="main.js"></script>
 </body>
 </html>
