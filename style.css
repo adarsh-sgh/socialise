@@ -34,12 +34,15 @@
     background-color: white;
 }
 #footer{
+    text-align: center;
+    font-size: smaller;
     align-items: center;
     justify-content: center;
+    word-spacing: 2px;
  }
 
  #footer ul{
-     display: flex;
+     display: inline-flex;
  }
 #footer ul li{
     list-style:none;
@@ -60,4 +63,12 @@ div.caption>span{
     padding: 5px;
     border-radius: 25px;
 }
+.socials{
+    font-size: x-large;
 
+}
+.info>h5 {
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}

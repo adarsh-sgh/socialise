@@ -37,6 +37,7 @@ html {
   padding: 0% 2% 5%;
 }
 .info>h3{
+  color: #000000a3;
   text-align: center;
 }
 #navbar{
@@ -54,11 +55,19 @@ html {
 }
 
 @media(max-width:625px) {
-  .big1 {
-    background-attachment: scroll;
+
+  #navbar {
+    font-size: 3vw;
   }
+
+}
+
+@media(max-width: 300px) {
+ .socials{
+   font-size: smaller;
+ }
   #navbar {
     display: none;
   }
-  
+
 }
