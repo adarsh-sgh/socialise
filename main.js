@@ -19,12 +19,10 @@ function dismiss(){
 overlay.style.display='none';
 }
 function fade(selector='.overlay') {
-    console.time('fade')
     element=document.querySelector(selector);
     if(element.style.opacity&&element.style.opacity<.1){
         element.style.display='none';
         element.style.opacity=1;
-        console.timeEnd('fade')    
         return
     }
     element.style.opacity=(element.style.opacity||1)/1.08;
