@@ -1,5 +1,6 @@
 body,
 html {
+  
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
@@ -41,6 +42,7 @@ html {
 }
 
 .about {
+  overflow-x: hidden;
   text-align: center;
 }
 .info {
