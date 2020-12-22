@@ -108,3 +108,7 @@ div.caption>span{
     position: absolute;
     bottom: inherit;
   }
+  .contact>h6 {
+      margin-bottom: 0px;
+    color: #551983;;
+}
