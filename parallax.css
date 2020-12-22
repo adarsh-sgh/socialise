@@ -3,25 +3,35 @@ html {
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #eb5814;
 }
-.caption{
+.caption {
   text-align: center;
 }
 
-.big1{background-image: url("robotics/images/big.jpg");}
-.big2{background-image: url("teamexe/images/big.jpg");}
-.big3{background-image: url("iste/images/big.jpg");}
-.big4{background-image: url("csoc/images/big.jpg");}
-.big5{background-image: url("spic/images/big.jpg");}
+.big1 {
+  background-image: url("robotics/images/big.jpg");
+}
+.big2 {
+  background-image: url("teamexe/images/big.jpg");
+}
+.big3 {
+  background-image: url("iste/images/big.jpg");
+}
+.big4 {
+  background-image: url("csoc/images/big.jpg");
+}
+.big5 {
+  background-image: url("spic/images/big.jpg");
+}
 
 .big {
   min-height: 100%;
   position: relative;
-  opacity: 0.70;
+  opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,42 +46,39 @@ html {
 .info {
   padding: 0% 2% 5%;
 }
-.info>h3{
+.info > h3 {
   color: #000000a3;
   text-align: center;
 }
-#navbar{
+#navbar {
   background-color: black;
   height: 10%;
   width: 100%;
-
 }
 #footer {
   background-color: black;
   color: white;
   width: 100%;
   position: absolute;
-
 }
 
-@media(max-width:625px) {
-
+@media (max-width: 625px) {
   #navbar {
     font-size: 3vw;
   }
-  #footer ul li a{
+  #footer ul li a {
     padding: 5px 10px;
   }
-
 }
 
-@media(max-width: 300px) {
- .socials{
-   font-size: smaller;
- }
+@media (max-width: 300px) {
+  .socials {
+    font-size: smaller;
+  }
   #navbar {
     display: none;
-  } #footer ul li a{
+  }
+  #footer ul li a {
     padding: 4px 4px;
   }
 }
